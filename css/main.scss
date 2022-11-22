@@ -1,6 +1,5 @@
 @charset 'utf-8';
-@import "variables";
-@import "mixin";
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 @import url("font/font.css");
 * {
@@ -22,23 +21,74 @@ img {
 html {
   font-size: 16px;
 }
-body {
-}
+
 .wrap {
   position: relative;
   display: block;
 }
 /* 상단 */
-@import "header";
+// @import "header";
+
+
+.header {
+  .header-inner {
+    position: absolute;
+    .header-top {
+      
+      display: flex;
+      justify-content: flex-end;
+      width: 100vw;
+      height: 30px;
+     
+
+      .buy {
+        order: 1;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+      .job{
+        order: 2;
+        cursor: pointer;
+        
+        
+      }
+     
+     
+      }
+    }
+  }
+
+
+  
+  
+ 
+
+.header-bottom {
+  .header-bottom-inner{
+  display: flex;
+  .logo {
+    justify-content: flex-start;
+    width: 144px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .nav{
+    gnb{
+      justify-content: center;
+  }
+  .lang{
+    justify-content: flex-end;
+  }
+}}}
 /* 비주얼 */
-@import "visual";
-/* 상품소개 */
-@import "item";
-/* 고객문의 */
-@import "faq";
-/* 브랜드관 */
-@import "brand";
-/* 리포트 */
-@import "report";
-/* 하단 */
-@import "footer";
+// @import "visual";
+// /* 상품소개 */
+// @import "item";
+// /* 고객문의 */
+// @import "faq";
+// /* 브랜드관 */
+// @import "brand";
+// /* 리포트 */
+// @import "report";
+// /* 하단 */
+// @import "footer";
