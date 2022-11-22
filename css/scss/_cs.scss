@@ -1,0 +1,12 @@
+.cs{
+    .cs-top{
+        .top-email{}
+        .top-call{}
+    }
+    .cs-bottom{
+        .faq{
+            @at-root .faq-left{}
+            @at-root .faq-right{}
+        }
+    }
+}
