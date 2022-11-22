@@ -1,0 +1,44 @@
+@charset 'utf-8';
+@import "variables";
+@import "mixin";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("font/font.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+}
+.wrap {
+  position: relative;
+  display: block;
+}
+/* 상단 */
+@import "header";
+/* 비주얼 */
+@import "visual";
+/* 상품소개 */
+@import "item";
+/* 고객문의 */
+@import "faq";
+/* 브랜드관 */
+@import "brand";
+/* 리포트 */
+@import "report";
+/* 하단 */
+@import "footer";
