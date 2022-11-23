@@ -19,29 +19,27 @@
   }
   .cs-top {
     .top-email {
-      img{
-        
-      }
-      }
-      .p {
-      }
-      @at-root .button {
-        cursor: pointer;
+      img {
       }
     }
-    .top-call {
+    .p {
+    }
+    @at-root .button {
+      cursor: pointer;
     }
   }
-  .cs-bottom {
-    h4 {
-      position: absolute;
-      left: 20px;
+  .top-call {
+  }
+}
+.cs-bottom {
+  h4 {
+    position: absolute;
+    left: 20px;
+  }
+  .faq {
+    @at-root .faq-left {
     }
-    .faq {
-      @at-root .faq-left {
-      }
-      @at-root .faq-right {
-      }
+    @at-root .faq-right {
     }
   }
 }

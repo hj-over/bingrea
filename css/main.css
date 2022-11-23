@@ -56,15 +56,11 @@ html {
   box-shadow: 0px 5px 24.3px 2.7px rgba(0, 0, 0, 0.09);
   border-radius: 30px;
 }
-.cs .cs-top .top-email img {
-  width: 592px;
-  height: 323px;
-}
 .button {
   cursor: pointer;
 }
 
-.cs .cs-bottom h4 {
+.cs-bottom h4 {
   position: absolute;
   left: 20px;
 }
