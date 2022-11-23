@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("font/font.css");
 * {
@@ -26,6 +27,7 @@ html {
 
 .wrap {
   font-family: "binggraeregular";
+  margin: 0 auto;
 }
 
 .clearfix::after {
@@ -36,15 +38,99 @@ html {
   clear: both;
 }
 
-.cs {
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+.header .header-inner {
+  position: absolute;
+}
+
+.header .header-inner .header-top {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 30px;
+}
+.header .header-inner .header-top .buy {
+  cursor: pointer;
+  margin-right: 20px;
+}
+.header .header-inner .header-top .job {
+  cursor: pointer;
+}
+
+.header-bottom .header-bottom-inner {
+  display: flex;
+  gap: 0 30rem;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header-bottom .header-bottom-inner .nav .gnb {
+  display: flex;
+  justify-content: center;
+  gap: 0 40px;
+}
+.header-bottom .header-bottom-inner .nav .gnb li {
+  white-space: nowrap;
+}
+.header-bottom .header-bottom-inner .nav .gnb li a:hover {
+  display: block;
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+  background: url("");
+}
+.header-bottom .header-bottom-inner .nav .gnb li .depth2 {
+  display: none;
+}
+
+.lang {
+  white-space: nowrap;
+  font-weight: 800;
+}
+
+/* 비주얼 */
+.visual .visual-inner {
+  position: relative;
+  position: relative;
+  z-index: -5;
+}
+.visual .visual-inner .front {
+  position: absolute;
+}
+.visual .visual-inner .back {
+  position: absolute;
+}
+.visual .visual-inner .back .search {
   position: relative;
   display: block;
+  top: 600px;
+  left: 40%;
 }
-.cs h3 {
-  font-size: 38px;
-  color: #1f1f1f;
-  text-align: center;
+.visual .visual-inner .back .search .search-form {
+  position: relative;
 }
+.visual .visual-inner .back .search .search-txt {
+  position: absolute;
+  border-radius: 30px;
+  background: white;
+  padding-right: 500px;
+  line-height: 60px;
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 5px 5px rgba(163, 124, 124, 0.5);
+}
+.visual .visual-inner .back .search .search-bt {
+  border: 0px;
+  border-radius: 20px;
+  background: rgb(231, 79, 79);
+  width: 100px;
+  height: 30px;
+=======
 .cs .cs-wrap {
   position: relative;
   display: block;
@@ -151,9 +237,11 @@ html {
 .cs-bottom .faq .faq-wrap .faq-right ul li {
   background: #f9f9f9;
   box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+
   padding: 0 20px;
   margin-bottom: 10px;
   border-radius: 30px;
   height: 80px;
   line-height: 80px;
+
 }
