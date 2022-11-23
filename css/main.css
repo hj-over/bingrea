@@ -61,7 +61,7 @@ html {
 .cs .cs-top .top-email {
   width: 50%;
   height: 325px;
-  background: url("../../images/layout/sec04_backimg01.png") no-repeat center;
+  background: url("../images/layout/sec04_backimg01.png") no-repeat center;
   background-size: contain;
   padding: 55px 45px;
 }
@@ -89,7 +89,7 @@ html {
 .cs .cs-top .top-call {
   width: 50%;
   height: 325px;
-  background: url("../../images/layout/sec04_backimg02.png") no-repeat center;
+  background: url("../images/layout/sec04_backimg02.png") no-repeat center;
   background-size: contain;
   padding: 55px 45px;
 }
