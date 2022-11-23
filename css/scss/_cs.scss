@@ -1,19 +1,26 @@
 .cs {
   position: relative;
   display: block;
-  h4 {
+  h3 {
     font-size: 38px;
     color: #1f1f1f;
     text-align: center;
   }
   .cs-wrap {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    width: 1310px;
+    height: 852px;
     background: #fff;
+    margin: 0 auto;
     box-shadow: 0px 5px 24.3px 2.7px rgb(0 0 0 / 9%);
+    border-radius: 30px;
   }
   .cs-top {
     .top-email {
+      img {
+      }
       .p {
       }
       @at-root .button {
@@ -24,6 +31,10 @@
     }
   }
   .cs-bottom {
+    h4 {
+      position: absolute;
+      left: 20px;
+    }
     .faq {
       @at-root .faq-left {
       }

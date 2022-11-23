@@ -27,7 +27,13 @@ html {
 .wrap {
   font-family: "binggraeregular";
 }
-
+.clearfix::after{
+  content: "";
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+}
 // cs 센터
 @import "scss/cs";
 
