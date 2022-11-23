@@ -25,6 +25,9 @@
         center;
       background-size: contain;
       padding: 55px 45px;
+      h4 {
+        font-size: 32px;
+      }
     }
     .top-call {
       width: 50%;
@@ -33,6 +36,15 @@
         center;
       background-size: contain;
       padding: 55px 45px;
+      h4 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 46.5px;
+      }
+      span {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -43,6 +55,8 @@
       display: flex;
       justify-content: space-between;
       span {
+        color: #1f1f1f;
+        font-size: 23px;
       }
       a {
       }

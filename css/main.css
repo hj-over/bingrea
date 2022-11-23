@@ -65,12 +65,24 @@ html {
   background-size: contain;
   padding: 55px 45px;
 }
+.cs .cs-top .top-email h4 {
+  font-size: 32px;
+}
 .cs .cs-top .top-call {
   width: 50%;
   height: 325px;
   background: url("../../images/layout/sec04_backimg02.png") no-repeat center;
   background-size: contain;
   padding: 55px 45px;
+}
+.cs .cs-top .top-call h4 {
+  font-size: 32px;
+}
+.cs .cs-top .top-call p {
+  font-size: 46.5px;
+}
+.cs .cs-top .top-call span {
+  font-size: 16px;
 }
 
 .cs-bottom {
@@ -79,6 +91,10 @@ html {
 .cs-bottom .faq h4 {
   display: flex;
   justify-content: space-between;
+}
+.cs-bottom .faq h4 span {
+  color: #1f1f1f;
+  font-size: 23px;
 }
 .cs-bottom .faq .faq-wrap {
   display: flex;
