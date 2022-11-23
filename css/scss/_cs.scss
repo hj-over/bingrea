@@ -8,38 +8,63 @@
   }
   .cs-wrap {
     position: relative;
-    display: flex;
-    flex-direction: row;
+    display: block;
     width: 1310px;
-    height: 852px;
     background: #fff;
     margin: 0 auto;
     box-shadow: 0px 5px 24.3px 2.7px rgb(0 0 0 / 9%);
     border-radius: 30px;
+    padding: 60px 45px;
   }
   .cs-top {
     display: flex;
     .top-email {
-      
+      width: 50%;
+      height: 325px;
+      background: url("../../images/layout/sec04_backimg01.png") no-repeat
+        center;
+      background-size: contain;
+      padding: 55px 45px;
     }
-    .p {
+    .top-call {
+      width: 50%;
+      height: 325px;
+      background: url("../../images/layout/sec04_backimg02.png") no-repeat
+        center;
+      background-size: contain;
+      padding: 55px 45px;
     }
-    @at-root .button {
-      cursor: pointer;
-    }
-  }
-  .top-call {
   }
 }
 .cs-bottom {
-  h4 {
-    position: absolute;
-    left: 20px;
-  }
+  display: block;
   .faq {
-    @at-root .faq-left {
+    h4 {
+      display: flex;
+      justify-content: space-between;
+      span {
+      }
+      a {
+      }
     }
-    @at-root .faq-right {
+    .faq-wrap {
+      display: flex;
+      .faq-left {
+        width: 50%;
+        ul {
+          li {
+            box-shadow: inset 0px 5px 10px 0 rgb(121 121 121 / 8%);
+          }
+        }
+      }
+      .faq-right {
+        width: 50%;
+        ul {
+          li {
+            box-shadow: inset 0px 5px 10px 0 rgb(121 121 121 / 8%);
+          }
+        }
+      }
     }
   }
 }
