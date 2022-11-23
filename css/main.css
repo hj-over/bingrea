@@ -67,6 +67,24 @@ html {
 }
 .cs .cs-top .top-email h4 {
   font-size: 32px;
+  padding: 0px 0px 30px;
+}
+.cs .cs-top .top-email .advice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+  width: 160px;
+  height: 43px;
+  border-radius: 21.5px;
+  border: solid 1px rgba(224, 223, 226, 0.6);
+  background: red;
+  box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.03);
+}
+.cs .cs-top .top-email .advice a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
 }
 .cs .cs-top .top-call {
   width: 50%;
@@ -77,12 +95,20 @@ html {
 }
 .cs .cs-top .top-call h4 {
   font-size: 32px;
+  padding: 0px 0px 30px;
 }
-.cs .cs-top .top-call p {
+.cs .cs-top .top-call .tel {
   font-size: 46.5px;
+  font-weight: 600;
+  letter-spacing: -2.33px;
+  color: #303030;
+}
+.cs .cs-top .top-call .time {
+  font-size: 16px;
 }
 .cs .cs-top .top-call span {
   font-size: 16px;
+  color: red;
 }
 
 .cs-bottom {
@@ -91,23 +117,43 @@ html {
 .cs-bottom .faq h4 {
   display: flex;
   justify-content: space-between;
+  padding: 47px 0px 30px;
 }
 .cs-bottom .faq h4 span {
   color: #1f1f1f;
   font-size: 23px;
 }
+.cs-bottom .faq h4 a {
+  box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.03);
+}
 .cs-bottom .faq .faq-wrap {
   display: flex;
+  justify-content: space-between;
 }
 .cs-bottom .faq .faq-wrap .faq-left {
-  width: 50%;
+  width: 48%;
 }
 .cs-bottom .faq .faq-wrap .faq-left ul li {
+  background: #f9f9f9;
   box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+  padding: 0 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  height: 80px;
+  line-height: 80px;
+}
+.cs-bottom .faq .faq-wrap .faq-left ul li a {
+  font-size: 18px;
 }
 .cs-bottom .faq .faq-wrap .faq-right {
-  width: 50%;
+  width: 48%;
 }
 .cs-bottom .faq .faq-wrap .faq-right ul li {
+  background: #f9f9f9;
   box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+  padding: 0 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  height: 80px;
+  line-height: 80px;
 }
