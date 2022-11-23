@@ -38,6 +38,7 @@ html {
 @import "header";
 
 .header {
+ 
   z-index: 9999999;
   .header-inner {
     position: absolute;
@@ -124,7 +125,7 @@ html {
           border: 1px solid #fff;
           box-shadow: 5px 5px 5px 5px rgb(163, 124, 124, 0.5);
         }
-ㅎ
+
         .search-bt {
           border: 0px;
 
@@ -141,6 +142,6 @@ html {
 /* 비주얼 */
 @import "visual";
 // cs 센터
-@import "scss/cs";
 
-@import "scss/report";
+
+
