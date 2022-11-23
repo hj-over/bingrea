@@ -144,6 +144,7 @@ html {
 }
 .cs-bottom .faq .faq-wrap .faq-left ul li a {
   font-size: 18px;
+  font-weight: 700;
 }
 .cs-bottom .faq .faq-wrap .faq-right {
   width: 48%;
@@ -156,4 +157,8 @@ html {
   border-radius: 30px;
   height: 80px;
   line-height: 80px;
+}
+.cs-bottom .faq .faq-wrap .faq-right ul li a {
+  font-size: 18px;
+  font-weight: 700;
 }
