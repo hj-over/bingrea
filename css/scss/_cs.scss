@@ -27,6 +27,24 @@
       padding: 55px 45px;
       h4 {
         font-size: 32px;
+        padding: 0px 0px 30px;
+      }
+      .advice {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 65px;
+        width: 160px;
+        height: 43px;
+        border-radius: 21.5px;
+        border: solid 1px rgba(224, 223, 226, 0.6);
+        background: red;
+        box-shadow: inset 0px 5px 10px 0 rgb(121 121 121 / 3%);
+        a {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 500;
+        }
       }
     }
     .top-call {
@@ -38,12 +56,20 @@
       padding: 55px 45px;
       h4 {
         font-size: 32px;
+        padding: 0px 0px 30px;
       }
-      p {
+      .tel {
         font-size: 46.5px;
+        font-weight: 600;
+        letter-spacing: -2.33px;
+        color: #303030;
+      }
+      .time {
+        font-size: 16px;
       }
       span {
         font-size: 16px;
+        color: red;
       }
     }
   }
@@ -54,28 +80,46 @@
     h4 {
       display: flex;
       justify-content: space-between;
+      padding: 47px 0px 30px;
       span {
         color: #1f1f1f;
         font-size: 23px;
       }
       a {
+        box-shadow: inset 0px 5px 10px 0 rgb(121 121 121 / 3%);
       }
     }
     .faq-wrap {
       display: flex;
+      justify-content: space-between;
       .faq-left {
-        width: 50%;
+        width: 48%;
         ul {
           li {
+            background: #f9f9f9;
             box-shadow: inset 0px 5px 10px 0 rgb(121 121 121 / 8%);
+            padding: 0 20px;
+            margin-bottom: 10px;
+            border-radius: 30px;
+            height: 80px;
+            line-height: 80px;
+            a {
+              font-size: 18px;
+            }
           }
         }
       }
       .faq-right {
-        width: 50%;
+        width: 48%;
         ul {
           li {
+            background: #f9f9f9;
             box-shadow: inset 0px 5px 10px 0 rgb(121 121 121 / 8%);
+            padding: 0 20px;
+            margin-bottom: 10px;
+            border-radius: 30px;
+            height: 80px;
+            line-height: 80px;
           }
         }
       }
