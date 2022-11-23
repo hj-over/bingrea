@@ -26,6 +26,8 @@ html {
 }
 .wrap {
   font-family: "binggraeregular";
+  
+  margin: 0 auto;
 }
 .clearfix::after{
   content: "";
@@ -38,9 +40,15 @@ html {
 @import "header";
 
 .header {
- 
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+
+
   z-index: 9999999;
   .header-inner {
+   
     position: absolute;
 
     .header-top {
@@ -75,9 +83,27 @@ html {
         justify-content: center;
 
         gap: 0 40px;
+
         li {
-          white-space: nowrap;
+          white-space: nowrap; 
+          a{
+            &:hover{
+              display: block;
+              cursor: pointer;
+              color: red;
+              text-decoration: underline;
+              background: url("");
+
+
+            }
+
+          }
+         
+          .depth2{
+  display: none;
+} 
         }
+       
       }
     }
   }
@@ -88,23 +114,24 @@ html {
   font-weight: 800;
 }
 
+/* 비주얼 */
+@import "visual";
 .visual {
   .visual-inner {
     position: relative;
-    .visual-main {
+   
+   
       position: relative;
       z-index: -5;
 
       .front {
         position: absolute;
-        top: 0px;
-        left: 0;
+        
+        
       }
       .back {
         position: absolute;
-        top: 150px;
-        left: 200px;
-      }
+        
       .search {
         position: relative;
         display: block;
@@ -139,8 +166,7 @@ html {
   }
 }
 
-/* 비주얼 */
-@import "visual";
+
 // cs 센터
 
 

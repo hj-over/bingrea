@@ -27,6 +27,7 @@ html {
 
 .wrap {
   font-family: "binggraeregular";
+  margin: 0 auto;
 }
 
 .clearfix::after {
@@ -38,6 +39,10 @@ html {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 9999999;
 }
 .header .header-inner {
@@ -72,39 +77,44 @@ html {
 .header-bottom .header-bottom-inner .nav .gnb li {
   white-space: nowrap;
 }
+.header-bottom .header-bottom-inner .nav .gnb li a:hover {
+  display: block;
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+  background: url("");
+}
+.header-bottom .header-bottom-inner .nav .gnb li .depth2 {
+  display: none;
+}
 
 .lang {
   white-space: nowrap;
   font-weight: 800;
 }
 
+/* 비주얼 */
 .visual .visual-inner {
   position: relative;
-}
-.visual .visual-inner .visual-main {
   position: relative;
   z-index: -5;
 }
-.visual .visual-inner .visual-main .front {
+.visual .visual-inner .front {
   position: absolute;
-  top: 0px;
-  left: 0;
 }
-.visual .visual-inner .visual-main .back {
+.visual .visual-inner .back {
   position: absolute;
-  top: 150px;
-  left: 200px;
 }
-.visual .visual-inner .visual-main .search {
+.visual .visual-inner .back .search {
   position: relative;
   display: block;
   top: 600px;
   left: 40%;
 }
-.visual .visual-inner .visual-main .search .search-form {
+.visual .visual-inner .back .search .search-form {
   position: relative;
 }
-.visual .visual-inner .visual-main .search .search-txt {
+.visual .visual-inner .back .search .search-txt {
   position: absolute;
   border-radius: 30px;
   background: white;
@@ -113,12 +123,10 @@ html {
   border: 1px solid #fff;
   box-shadow: 5px 5px 5px 5px rgba(163, 124, 124, 0.5);
 }
-.visual .visual-inner .visual-main .search .search-bt {
+.visual .visual-inner .back .search .search-bt {
   border: 0px;
   border-radius: 20px;
   background: rgb(231, 79, 79);
   width: 100px;
   height: 30px;
 }
-
-/* 비주얼 */
