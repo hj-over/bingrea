@@ -48,6 +48,7 @@ html {
 .header .header-inner {
   position: absolute;
 }
+<<<<<<< HEAD
 .header .header-inner .header-top {
   margin: 0 auto;
   display: flex;
@@ -129,4 +130,71 @@ html {
   background: rgb(231, 79, 79);
   width: 100px;
   height: 30px;
+=======
+.cs .cs-wrap {
+  position: relative;
+  display: block;
+  width: 1310px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 5px 24.3px 2.7px rgba(0, 0, 0, 0.09);
+  border-radius: 30px;
+  padding: 60px 45px;
+}
+.cs .cs-top {
+  display: flex;
+}
+.cs .cs-top .top-email {
+  width: 50%;
+  height: 325px;
+  background: url("../../images/layout/sec04_backimg01.png") no-repeat center;
+  background-size: contain;
+  padding: 55px 45px;
+}
+.cs .cs-top .top-email h4 {
+  font-size: 32px;
+}
+.cs .cs-top .top-call {
+  width: 50%;
+  height: 325px;
+  background: url("../../images/layout/sec04_backimg02.png") no-repeat center;
+  background-size: contain;
+  padding: 55px 45px;
+}
+.cs .cs-top .top-call h4 {
+  font-size: 32px;
+}
+.cs .cs-top .top-call p {
+  font-size: 46.5px;
+}
+.cs .cs-top .top-call span {
+  font-size: 16px;
+}
+
+.cs-bottom {
+  display: block;
+}
+.cs-bottom .faq h4 {
+  display: flex;
+  justify-content: space-between;
+}
+.cs-bottom .faq h4 span {
+  color: #1f1f1f;
+  font-size: 23px;
+}
+.cs-bottom .faq .faq-wrap {
+  display: flex;
+}
+.cs-bottom .faq .faq-wrap .faq-left {
+  width: 50%;
+}
+.cs-bottom .faq .faq-wrap .faq-left ul li {
+  box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+}
+.cs-bottom .faq .faq-wrap .faq-right {
+  width: 50%;
+}
+.cs-bottom .faq .faq-wrap .faq-right ul li {
+  box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.08);
+>>>>>>> 8f75c7bd64d0175837c925bfb2b9a1c3160a4d98
 }
