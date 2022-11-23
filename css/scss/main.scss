@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("font/font.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+html {
+  font-size: 16px;
+}
+.wrap {
+  font-family: "binggraeregular";
+}
+.clearfix::after{
+  content: "";
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+@import "header";
+
+.header {
+  z-index: 9999999;
+  .header-inner {
+    position: absolute;
+
+    .header-top {
+      margin: 0 auto;
+      display: flex;
+      justify-content: flex-end;
+
+      width: 100%;
+      height: 30px;
+
+      .buy {
+        cursor: pointer;
+        margin-right: 20px;
+      }
+      .job {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.header-bottom {
+  .header-bottom-inner {
+    display: flex;
+    gap: 0 30rem;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .nav {
+      .gnb {
+        display: flex;
+        justify-content: center;
+
+        gap: 0 40px;
+        li {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+.lang {
+  white-space: nowrap;
+  font-weight: 800;
+}
+
+.visual {
+  .visual-inner {
+    position: relative;
+    .visual-main {
+      position: relative;
+      z-index: -5;
+
+      .front {
+        position: absolute;
+        top: 0px;
+        left: 0;
+      }
+      .back {
+        position: absolute;
+        top: 150px;
+        left: 200px;
+      }
+      .search {
+        position: relative;
+        display: block;
+
+        top: 600px;
+        left: 40%;
+
+        .search-form {
+          position: relative;
+        }
+        .search-txt {
+          position: absolute;
+
+          border-radius: 30px;
+          background: white;
+          padding-right: 500px;
+          line-height: 60px;
+          border: 1px solid #fff;
+          box-shadow: 5px 5px 5px 5px rgb(163, 124, 124, 0.5);
+        }
+ㅎ
+        .search-bt {
+          border: 0px;
+
+          border-radius: 20px;
+          background: rgb(231, 79, 79);
+          width: 100px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+
+/* 비주얼 */
+@import "visual";
+// cs 센터
+@import "scss/cs";
+
+@import "scss/report";
