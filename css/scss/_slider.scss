@@ -111,13 +111,13 @@ html {
     align-items: center;
     line-height: 20px;
     margin: 12px 12px;
+    width: 250px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    height: 250px;
 }
 .slide-inner-bottom .slide-list > li > img {
     margin-bottom: 12px;
-}
-.slide-inner-bottom .slide-list > li > a {
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    width: 250px;
+
     padding: 12px 0;
 }
