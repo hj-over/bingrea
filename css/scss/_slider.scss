@@ -121,3 +121,44 @@ html {
 
     padding: 12px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .slide-inner {
+        width: 100vw;
+    }
+    .slide-inner-top .slide-inner-prevbtn,
+    .slide-inner-bottom .slide-inner-prevbtn {
+        display: none;
+    }
+    .slide-inner-top .slide-inner-nextbtn,
+    .slide-inner-bottom .slide-inner-nextbtn {
+        display: none;
+    }
+    .slide-inner-top .slide-list {
+        flex-wrap: wrap;
+    }
+
+    .slide-inner-top .slide-list > li > img {
+        width: 220px;
+        height: 220px;
+    }
+    .slide-inner-top .slide-list > li > a {
+        background: transparent;
+        width: 220px;
+    }
+    .slide-inner-top .slide-list > li:hover {
+        transform: translateY(0px);
+    }
+    .slide-inner-top .slide-list > li:hover > a {
+        background: transparent;
+        color: black;
+    }
+
+    // 바텀
+    .slide-inner-bottom .slide-list {
+        flex-wrap: wrap;
+    }
+    .slide-inner-bottom .slide-list > li {
+        width: 220px;
+    }
+}
